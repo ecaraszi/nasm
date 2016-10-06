@@ -73,7 +73,7 @@ cc_binary(
         "nasm-2.12.02/output/",
         "nasm-2.12.02/rdoff/",
     ],
-    nocopts = "-Werror",
+    visibility = ["//visibility:public"],
 )
 
 #  "assemble.h",
